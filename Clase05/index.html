@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tienda Simple</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        .producto {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        button {
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>🛒 Tienda</h1>
+
+    <input type="text" id="buscador" placeholder="Buscar producto...">
+
+    <button id="cargar">Cargar productos</button>
+    <button id="limpiar">Limpiar</button>
+
+    <h2>Agregar producto (simulado)</h2>
+
+    <input type="text" id="nombre" placeholder="Nombre">
+    <input type="number" id="precio" placeholder="Precio">
+    <button id="agregar">Agregar</button>
+
+    <div id="lista"></div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
